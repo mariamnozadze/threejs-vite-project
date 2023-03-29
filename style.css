@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  overflow-x: hidden;
+}
+
+.webgl {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.user {
+  color: #fff;
+  z-index: 2;
+  position: relative;
+  padding: 1rem 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.box {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/* input {
+  width: 120px;
+  font-size: 20px;
+} */
+
+.box label {
+  flex-basis: 30px; /* width of the label */
+  margin-right: 10px;
+  text-align: right;
+}
+
+.box input[type="number"] {
+  width: 120px;
+  font-size: 20px;
+  max-width: 100px;
+}
+
+button {
+  width: 5rem;
+  padding: 5px 20px;
+  transform: translateX(50px);
+  margin-top: 15px;
+}
